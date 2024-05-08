@@ -1,0 +1,19 @@
+Shrnutí
+
+
+Pro kalibraci na zlepšení:
+- potenciálně lepší algorithmus pro výpočet koeficientů.
+- zlepšení vstupních dat - lepší homogenost jasu na vzorku, 
+			 - může pomoct i rozšíření a zmenšení kroku zaznamenaných fotografií - zvětší množství dat k výpočtu = potenciální zlepšení díky 				lineární regresi --> eliminace hrubých a náhodných chyb
+Důležité:
+-Pro každou hodnotu clony je nutné vytvořit vlastní sadu fotek. A proto vytvořit sadu všech možných clon pro uplnou kalibraci
+
+
+Výsledky:
+-koeficienty nezávisí na vzdálenosti objektu a přiblížení objektivem,
+
+Budoucí upgrade:
+
+- velké možství fotek zabírá hodně prostoru, zvážení možnosti eliminace nadbytečných fotografií, ořezání a záloha dat je možná ale ztrátí se originál(nevýhodné ale úsporné) 
+
+- vyzkoušet potenciál jpg fotografií(jpg je menší a jasová složka se při kompresi příliš nemění) - kvantizační chyba je vyšší přechodem na 8bit z (12,14,16)
