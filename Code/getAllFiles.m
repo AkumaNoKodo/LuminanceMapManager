@@ -18,7 +18,7 @@ function fileList = getAllFiles(folder, extensions, includeSubfolders)
         fileList = [];
         return;
     end
-
+    
     [~, ~, ext] = fileparts(info.name);
     ext = lower(ext);
     info = info(ismember(ext, extensions), :); 
